@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 50% !important;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .subcontainer {
+    width: 100%;
+  }
+
+  .discount,
+  .cosmetologist,
+  header {
+    display: none;
+  }
+
+  .sub-container {
+    width: 100%;
+  }
+
+  .three-img {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .three-img img {
+    width: 50vw;
+    margin-right: 20px;
+  }
+
+  .content {
+    margin: 20px auto;
+    width: 90%;
+    height: 100px;
+  }
+
+  .features {
+    margin: 0px 0px;
+    width: 100%;
+  }
+
+  .content img {
+    left: -25px;
+  }
+
+  .features ul {
+      position: relative;
+      left: 20px;
+      margin-top: 0px;
+  }
+
+  .features li {
+    margin: 0 5px;
+  }
+
+  .banner-head {
+    margin-bottom: 10px;
+      position: relative;
+  }
+  .sub-heads {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .services {
+    margin: 0 15px;
+  }
+
+  .subcontainer h1 {
+    font-size: 18px !important;
+  }
+
+  .box-container {
+    width: 100%;
+  }
+
+  .box {
+    /* overflow-x: hidden; */
+    width: 40%;
+  }
+
+  .box img {
+    width: 200px !important;
+  }
+
+  .free-banner {
+    height: 100px;
+    width: 100%;
+  }
+
+  .free-banner h1 {
+    width: 80%;
+    margin-left: 0 !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .free-banner h3 {
+    margin: 0 auto;
+    font-size: 12px;
+    width: 70%;
+  }
+
+  .free-banner .details h3:before {
+    left: -30px;
+    width: 20px;
+    height: 1px;
+  }
+  .free-banner .details h3:after {
+    height: 1px;
+    width: 20px;
+    right: 50px;
+  }
+
+  .free-banner img {
+    margin-left: 0;
+    width: 50%;
+  }
+
+  .free-banner .details {
+    margin: 5px -50px;
+  }
+
+  .free-banner button {
+    font-size: 10px;
+    margin-top: 7px;
+    padding: 3px;
+    margin-left: 70px;
+  }
+
+  .choose-banner {
+    width: 100%;
+    margin: 0;
+    height: 130px;
+  }
+
+  .choose-banner .details {
+    width: 120%;
+    /* width: 25%; */
+    margin: 5px;
+  }
+
+  .choose-banner h4 {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .choose-banner ul {
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+
+  .choose-banner li {
+    margin: 0;
+    width: 100%;
+  }
+
+  .customers-container {
+    overflow-x: hidden;
+  }
+
+  .customers {
+    width: 100%;
+  }
+
+  .refer {
+    display: none;
+  }
+
+  .happiness img {
+    margin-top: 0 !important;
+    width: 80px;
+  }
+
+  .trending {
+    overflow-x: hidden;
+  }
+
+  .assures-banner {
+    overflow-x: hidden;
+    margin: 0;
+  }
+
+  .assures-features {
+    flex-direction: column;
+    width: 130%;
+    margin-left: -40px;
+  }
+
+  .professional {
+    /* width: 100vw; */
+    overflow-x: hidden;
+  }
+
+  .feature-card {
+    width: 100vw;
+    margin: 5px;
+  }
+
+  .parts {
+    width: 200% !important;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .professional h5 {
+    font-size: 12px;
+  }
+  .professional p {
+    font-size: 10px;
+  }
+}

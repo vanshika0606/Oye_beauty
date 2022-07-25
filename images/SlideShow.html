@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <img src="1.png" alt="img" width="200px" id="imgid1" />
+    <img src="2.png" alt="img" width="200px" id="imgid2" />
+    <img src="5.png" alt="img" width="200px" id="imgid3" />
+  </div>
+  <p>
+    <a href="#" id="pre">Prev</a>
+    <a href="#" id="nex">Next</a>
+  </p>
+  <script>
+    var imgid = ["1.png", "2.png", "5.png", "1.png", "2.png", "5.png"];
+    let count = 0, count2 = 0, count3 = 0;
+    document.getElementById("nex").onclick = funChan;
+    document.getElementById("pre").onclick = funChan2;
+    function funChan() {
+      count++;
+      count2=count++;
+      count3=count2++;
+      if (count > imgid.length - 1) {
+        count = 0;
+      }
+      if (count2 > imgid.length - 1) {
+        count2 = 0;
+      }
+      if (count > imgid.length - 1) {
+        count3 = 0;
+      }
+      document.getElementById("imgid1").src = imgid[count];
+      document.getElementById("imgid2").src = imgid[count++];
+      document.getElementById("imgid3").src = imgid[count++];
+    }
+    function funChan2() {
+      count--;
+      if (count < 0) {
+        count = imgid.length - 1;
+      }
+      document.getElementById("imgid1").src = imgid[count];
+      document.getElementById("imgid2").src = imgid[count--];
+      document.getElementById("imgid3").src = imgid[count--];
+    }
+  </script>
+</body>
+
+</html>
